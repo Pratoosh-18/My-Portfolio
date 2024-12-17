@@ -19,3 +19,8 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.masked {
+  -webkit-mask: url('/path/to/mask.svg') center/cover no-repeat;
+  mask: url('/path/to/mask.svg') center/cover no-repeat;
+}
