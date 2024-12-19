@@ -8,10 +8,8 @@ import {
   IconNewSection,
   IconTerminal2,
 } from "@tabler/icons-react";
-import { div } from "framer-motion/client";
-// import Image from "next/image";
 
-export function FloatingDockDemo() {
+export function FloatingDock() {
   const links = [
     {
       title: "Home",
